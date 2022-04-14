@@ -8,7 +8,7 @@ pipeline {
             stage('welcome'){
                 steps{
                     echo "welcome to jenkins practice"
-                    git 'https://github.com/PrashanthgRebel/mytestcode.git'
+                    git branch: 'main', url: 'https://github.com/PrashanthgRebel/mytestcode.git'
                 }
 
             }
