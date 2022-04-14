@@ -9,16 +9,9 @@ pipeline {
                 steps{
                     echo "welcome to jenkins practice"
                 }
-            stage('Git checkout'){
-                step{
-                    git 'https://github.com/PrashanthgRebel/mytestcode.git'
-                }
 
             }
-            
 
+
+        }
 }
-
-
-
-
