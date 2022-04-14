@@ -4,11 +4,10 @@ pipeline {
             maven 'maven3'
         }
 
-
         stages {
-            stage('Build'){
+            stage('welcome'){
                 steps{
-                    sh 'mvn clean package'
+                    echo "welcome to jenkins practice"
                 }
 
             }
@@ -16,3 +15,4 @@ pipeline {
 
         }
 }
+
