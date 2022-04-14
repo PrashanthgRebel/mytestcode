@@ -11,14 +11,13 @@ pipeline {
                 }
             stage('Git checkout'){
                 step{
-                    https://github.com/PrashanthgRebel/mytestcode.git
+                    git 'https://github.com/PrashanthgRebel/mytestcode.git'
                 }
 
             }
             
 
 }
-
 
 
 
