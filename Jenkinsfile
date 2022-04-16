@@ -12,11 +12,10 @@ pipeline {
                 }
 
             }
-        	stage{('testing')
+        	stage('testing'){
         		steps{
-        			echo "checking test"
+        			echo "testing code"
         		}
-        		
         	}
 
         }
