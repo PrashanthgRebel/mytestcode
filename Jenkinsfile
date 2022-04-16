@@ -12,7 +12,12 @@ pipeline {
                 }
 
             }
-
+        	stage{('testing')
+        		steps{
+        			echo "checking test"
+        		}
+        		
+        	}
 
         }
 }
